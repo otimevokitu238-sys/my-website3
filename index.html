@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>宁波可米特焊接材料有限公司</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:"Microsoft YaHei",sans-serif}
+body{background:#f4f7fa;color:#222}
+.container{max-width:1300px;margin:0 auto;padding:0 25px}
+
+/* 导航 */
+.header{background:#0a2342;position:sticky;top:0;z-index:999;box-shadow:0 5px 15px rgba(0,0,0,0.1)}
+.nav-bar{display:flex;justify-content:space-between;align-items:center;height:80px}
+.logo{color:#fff;font-size:24px;font-weight:700}
+.nav a{color:#fff;margin-left:35px;text-decoration:none;font-size:15px;font-weight:500}
+.nav a:hover{color:#4a90e2}
+
+/* Banner */
+.banner{width:100%;height:550px}
+.banner img{width:100%;height:100%;object-fit:cover}
+
+/* 标题 */
+.title{text-align:center;font-size:38px;font-weight:700;color:#111;margin:80px 0 50px}
+.title::after{content:"";width:70px;height:4px;background:#4a90e2;display:block;margin:18px auto 0}
+
+/* 简介 */
+.about{background:#fff;border-radius:20px;padding:60px;margin-bottom:90px;box-shadow:0 15px 40px rgba(0,0,0,0.06)}
+.about p{font-size:17px;line-height:2;margin-bottom:15px;color:#333}
+
+/* 产品 */
+.products{display:grid;grid-template-columns:repeat(2,1fr);gap:40px;margin-bottom:100px}
+@media(min-width:900px){.products{grid-template-columns:repeat(3,1fr)}}
+@media(min-width:1200px){.products{grid-template-columns:repeat(4,1fr)}}
+.item{background:#fff;border-radius:18px;overflow:hidden;box-shadow:0 12px 32px rgba(0,0,0,0.08);transition:0.3s}
+.item:hover{transform:translateY(-10px);box-shadow:0 20px 45px rgba(0,0,0,0.15)}
+.item img{width:100%;height:240px;object-fit:cover}
+.item h3{padding:20px;text-align:center;font-size:16px;font-weight:600;color:#111}
+
+/* 底部 */
+.footer{background:#0a2342;color:#fff;text-align:center;padding:45px 0}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="container">
+    <div class="nav-bar">
+      <div class="logo">宁波可米特焊接材料</div>
+      <div class="nav">
+        <a href="index.html">首页</a>
+        <a href="products.html">产品中心</a>
+        <a href="about.html">关于我们</a>
+        <a href="contact.html">联系我们</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="banner">
+  <img src="images/banner.jpg">
+</div>
+
+<div class="container">
+  <h2 class="title">企业简介</h2>
+  <div class="about">
+    <p>宁波可米特焊接材料有限公司，是一家专注于高端电子焊接材料研发与生产的专业企业。公司深耕锡膏与红胶领域，致力于为全球电子制造业提供卓越的焊接及粘接解决方案。</p>
+    <p>作为行业内的技术先行者，可米特拥有国际领先的全自动生产流水线与精密检测设备，依托强大的科研实力与严苛的品质管控体系，确保每一克产品都具备优异的稳定性、卓越的润湿性及高精度的点涂性能。</p>
+    <p>公司主营的焊锡膏产品，广泛应用于精密SMT工艺，具备低空洞率、抗坍塌性强及良好焊接性能等特点；而配套的高性能红胶，则展现出优异的触变性与粘接强度，完美契合微型化、高密度电子组件的制造需求。</p>
+    <p>秉持“科技驱动品质，匠心铸就信赖”的经营理念，产品远销海内外，赢得了众多一线电子制造厂商的高度认可。展望未来，公司将持续聚焦技术创新，以更优质的产品与服务，助力客户在电子智造浪潮中行稳致远，共筑精密连接新高度。</p>
+  </div>
+
+  <h2 class="title">核心产品</h2>
+  <div class="products">
+    <div class="item"><img src="images/1.jpg"><h3>无铅焊锡膏SAC105</h3></div>
+    <div class="item"><img src="images/2.jpg"><h3>无铅焊锡膏SAC305</h3></div>
+    <div class="item"><img src="images/3.jpg"><h3>无铅焊锡膏SAC0307</h3></div>
+    <div class="item"><img src="images/4.jpg"><h3>无铅中温锡膏Ag1.0</h3></div>
+    <div class="item"><img src="images/5.jpg"><h3>无铅中温锡膏Ag0.3</h3></div>
+    <div class="item"><img src="images/6.jpg"><h3>无铅低温锡膏</h3></div>
+    <div class="item"><img src="images/7.jpg"><h3>SMT红胶200克</h3></div>
+    <div class="item"><img src="images/8.jpg"><h3>SMT红胶360克</h3></div>
+    <div class="item"><img src="images/9.jpg"><h3>有铅63/37锡膏</h3></div>
+    <div class="item"><img src="images/10.jpg"><h3>有铅0.4银锡膏</h3></div>
+  </div>
+</div>
+
+<div class="footer">
+  <p>© 2026 宁波可米特焊接材料有限公司 版权所有</p>
+</div>
+
+</body>
+</html>
